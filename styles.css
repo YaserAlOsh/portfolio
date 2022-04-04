@@ -8,4 +8,20 @@ my-frame{
   overflow: hidden;
   border-radius: 8px; 
   will-change: transform;
+  width:100%;
+}
+@media only screen and (min-width: 768px) {
+  my-frame{
+      width: 50%;
+  }
+}
+@media only screen and (min-width: 992px) {
+  my-frame{
+      width: 45%;
+  } 
+}
+@media only screen and (min-width: 1200px) {
+  my-frame{
+      width: 35%;
+  } 
 }
