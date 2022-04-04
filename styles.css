@@ -1,4 +1,4 @@
-my-frame{
+.my.frame{
   position: relative; width: 35%; height: 100%;
   padding-bottom: 48px; 
   box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); 
@@ -12,17 +12,17 @@ my-frame{
   height: 100vh;
 }
 @media only screen and (min-width: 768px) {
-  my-frame{
+  .my-frame{
       width: 50%;
   }
 }
 @media only screen and (min-width: 992px) {
-  my-frame{
+  .my-frame{
       width: 45%;
   } 
 }
 @media only screen and (min-width: 1200px) {
-  my-frame{
+ .my-frame{
       width: 35%;
   } 
 }
