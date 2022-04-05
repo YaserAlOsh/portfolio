@@ -2,6 +2,9 @@
     box-sizing: border-box;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+body{
+    margin: 0;
+}
 
 .my-frame{
   position: relative; width: 35%; height: 100%;
