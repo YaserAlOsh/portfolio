@@ -1,3 +1,8 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 .my-frame{
   position: relative; width: 35%; height: 100%;
   padding-bottom: 48px; 
@@ -24,5 +29,29 @@
 @media only screen and (min-width: 1200px) {
  .my-frame{
       width: 35%;
+  } 
+}
+
+.navbar{
+height: 60px;
+    box-shadow: -1px 3px 6px 0px #c3b5b585;
+    width: 100%;
+    background-color: rgb(255 244 243);
+    color: #08090a;
+    display: flex;
+    justify-content: left;
+    padding-left: 2em;
+    padding-top: 1em;
+    height: fit-content;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+}
+.navbar .title{
+  font-size: 1.5em;
+}
+
+@media only screen and (min-width: 992px) {
+  .navbar .title{
+      font-size: 2vw;
   } 
 }
